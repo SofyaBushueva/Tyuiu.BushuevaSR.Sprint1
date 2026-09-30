@@ -8,9 +8,9 @@ namespace Tyuiu.BushuevaSR.Sprint1.Task2.V17.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            int x = 2;
+            int x = 120;
             var res = ds.ConvertMinutesToHours(x);
-            Assert.AreEqual(120, res);
+            Assert.AreEqual(2, res);
 
         }
     }

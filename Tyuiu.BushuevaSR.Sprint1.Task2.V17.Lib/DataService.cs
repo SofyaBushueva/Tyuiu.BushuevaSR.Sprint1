@@ -5,7 +5,7 @@ namespace Tyuiu.BushuevaSR.Sprint1.Task2.V17.Lib
     {
         public int ConvertMinutesToHours(int value)
         {
-            return value * 60;
+            return value / 60;
         }
     }
 }

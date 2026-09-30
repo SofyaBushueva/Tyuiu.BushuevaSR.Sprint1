@@ -33,7 +33,7 @@ namespace Tyuiu.BushuevaSR.Sprint1.Task2.V17
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                                                                    *");
             Console.WriteLine("*****************************************************************************************************************");
 
-            Console.WriteLine("Число X, умноженное на 60 = " + ds.ConvertMinutesToHours(x));
+            Console.WriteLine("Число X, рахделенное на 60 = " + ds.ConvertMinutesToHours(x));
 
             Console.ReadLine();
 
