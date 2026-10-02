@@ -24,7 +24,7 @@ namespace Tyuiu.BushuevaSR.Sprint1.Task6.V9
             Console.WriteLine("*****************************************************************************************************************");
 
             Console.WriteLine("Ведите текст:");
-            string text = Console.ReadLine()!;
+            string text = Console.ReadLine();
 
             Console.WriteLine("*****************************************************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                                                                    *");
