@@ -25,18 +25,15 @@ namespace Tyuiu.BushuevaSR.Sprint1.Task5.V7
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                                                              *");
             Console.WriteLine("*****************************************************************************************************************");
 
-            Console.WriteLine("Введите f");
+            Console.WriteLine("Введите угол f(0<f<360.0):");
             double f = Convert.ToDouble(Console.ReadLine());
-
-
 
             Console.WriteLine("*****************************************************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                                                                    *");
             Console.WriteLine("*****************************************************************************************************************");
 
-            int res = Convert.ToInt32(ds.AngleToHoursMinutes(f));
-            Console.WriteLine(res);
-            Console.ReadKey();
+            Console.WriteLine("Полное количество часов:" + ds.AngleToHoursMinutes(f));
+            Console.ReadLine();
         }
     }
 }

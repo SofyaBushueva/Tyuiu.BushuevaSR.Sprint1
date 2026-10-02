@@ -5,8 +5,10 @@ namespace Tyuiu.BushuevaSR.Sprint1.Task5.V7.Lib
     {
         public int AngleToHoursMinutes(double f)
         {
-            double res = Math.Floor(f / 30);
-            return (int)res;
+            // 1 час = 30 градусов(360/12=30)
+            int h = (int)(f / 30);
+            return h;
+
             
         }
     }
